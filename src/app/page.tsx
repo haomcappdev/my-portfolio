@@ -10,6 +10,8 @@ import Markdown from "react-markdown";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  const env = process.env.NODE_ENV;
+
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
@@ -59,7 +61,11 @@ export default function Page() {
             >
               <ResumeCard
                 key={work.company}
-                logoUrl={work.logoUrl}
+                logoUrl={
+                  env === "development"
+                    ? work.logoUrl
+                    : `/my-portfolio${work.logoUrl}`
+                }
                 altText={work.company}
                 title={work.company}
                 subtitle={work.title}
@@ -85,7 +91,11 @@ export default function Page() {
               <ResumeCard
                 key={education.school}
                 href={education.href}
-                logoUrl={education.logoUrl}
+                logoUrl={
+                  env === "development"
+                    ? education.logoUrl
+                    : `/my-portfolio${education.logoUrl}`
+                }
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
