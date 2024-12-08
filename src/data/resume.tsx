@@ -59,7 +59,7 @@ export const DATA = {
       badges: [],
       location: "Kuala Lumpur, MY",
       title: "Associate Software Engineer",
-      logoUrl: "/nintex.png",
+      logoUrl: "/my-portfolio/nintex.png",
       start: "November 2023",
       end: "Present",
       description:
@@ -71,7 +71,7 @@ export const DATA = {
       badges: [],
       location: "Kuala Lumpur, MY",
       title: "Full-stack Software Engineer",
-      logoUrl: "/sleekflow.png",
+      logoUrl: "/my-portfolio/sleekflow.png",
       start: "August 2023",
       end: "October 2023",
       description:
@@ -83,7 +83,7 @@ export const DATA = {
       badges: [],
       location: "Kuala Lumpur, MY",
       title: "Full-stack Software Engineer",
-      logoUrl: "/billennium.png",
+      logoUrl: "/my-portfolio/billennium.png",
       start: "August 2021",
       end: "July 2023",
       description:
@@ -95,7 +95,7 @@ export const DATA = {
       badges: [],
       location: "Kuala Lumpur, MY",
       title: "Senior Associate",
-      logoUrl: "/pwc.png",
+      logoUrl: "/my-portfolio/pwc.png",
       start: "Dec 2018",
       end: "July 2021",
       description:
@@ -107,7 +107,7 @@ export const DATA = {
       school: "Monash University",
       href: "https://www.monash.edu/",
       degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/monash.png",
+      logoUrl: "/my-portfolio/monash.png",
       start: "2015",
       end: "2018",
     },
